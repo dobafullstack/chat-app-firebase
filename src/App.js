@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Login from "./components/Login/index";
 import ChatRoom from "./components/ChatRoom/index";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";

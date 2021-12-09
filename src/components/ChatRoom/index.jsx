@@ -5,7 +5,13 @@ import ChatWindow from "./ChatWindow";
 
 export default function index() {
     return (
-        <div>
+        <div
+            style={{
+                backgroundImage:
+                    'url("https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg")',
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+            }}>
             <Row>
                 <Col span={8}>
                     <Sidebar />

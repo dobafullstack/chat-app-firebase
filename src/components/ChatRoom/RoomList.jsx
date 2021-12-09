@@ -19,6 +19,8 @@ const Wrapper = styled.div`
         border-radius: 10px;
         display: flex;
         align-items: center;
+        background-color: white;
+        transition: 0.5s;
     }
 
     .roomItem:hover {

@@ -3,7 +3,7 @@ import {Col, Row, Avatar, Typography} from 'antd'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-    background-color: rgba(221, 221, 221, 0.5);
+    background-color: white;
     display: block;
     margin: 16px;
     padding: 8px;

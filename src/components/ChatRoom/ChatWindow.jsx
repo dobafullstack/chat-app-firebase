@@ -1,14 +1,13 @@
-import React, {useContext} from 'react'
-import ChatHeader from './ChatHeader'
-import ChatContent from './ChatContent'
-import {Row, Col} from 'antd'
-import {RoomContext} from '../../contexts/RoomProvider'
+import React, { useContext } from "react";
+import ChatHeader from "./ChatHeader";
+import ChatContent from "./ChatContent";
+import { Row, Col } from "antd";
+import { RoomContext } from "../../contexts/RoomProvider";
 
 export default function ChatWindow() {
     const { selectedRoom, members } = useContext(RoomContext);
 
-    
-    if (selectedRoom){
+    if (selectedRoom) {
         return (
             <Row>
                 <Col span={24}>
@@ -19,8 +18,7 @@ export default function ChatWindow() {
                 </Col>
             </Row>
         );
-    }else{
-        return null
+    } else {
+        return null;
     }
-
 }
